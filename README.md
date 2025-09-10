@@ -1,6 +1,6 @@
-# T-Mobile Device Liability & Credit Forecasting Simulator
+# T-Mobile Device Liability & Credit Forecasting Tool
 
-A Streamlit-based interactive simulator to forecast T-Mobile device liabilities (Jump Program, Apple Forever), device depreciation, and service contract credit losses. The simulator models Jump Program and Apple Forever liabilities, forecasts device depreciation, and estimates service contract credit losses using regression, time-series, and classification techniques. It also includes interactive dashboards, KPIs, and downloadable reports, translating complex modeling outputs into clear insights for stakeholders.
+A Streamlit-based interactive tool to forecast T-Mobile device liabilities (Jump Program, Apple Forever), device depreciation, and service contract credit losses. The tool models Jump Program and Apple Forever liabilities, forecasts device depreciation, and estimates service contract credit losses using regression, time-series, and classification techniques. It also includes interactive dashboards, KPIs, and downloadable reports, translating complex modeling outputs into clear insights for stakeholders.
 
 ---
 
