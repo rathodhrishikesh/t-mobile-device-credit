@@ -3,13 +3,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-try:
-    import plotly.express as px
-except ModuleNotFoundError:
-    import subprocess, sys
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "plotly>=5.15.0"])
-    import plotly.express as px
-
+import plotly.express as px
 
 # ---- Page Config ----
 st.set_page_config(
