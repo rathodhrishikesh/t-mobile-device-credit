@@ -7,7 +7,7 @@ import plotly.express as px
 
 # ---- Page Config ----
 st.set_page_config(
-    page_title="T-Mobile Liability & Credit Forecasting Simulator",
+    page_title="T-Mobile Liability & Credit Forecasting Tool",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -115,7 +115,7 @@ def generate_credit_loss_data(customers=1000):
     return df
 
 # ---- Main Panel ----
-st.title("📱 T-Mobile Device Liability & Credit Forecasting Simulator")
+st.title("📱 T-Mobile Device Liability & Credit Forecasting Tool")
 st.markdown("<hr style='border:2px solid #E20074'>", unsafe_allow_html=True)
 
 if simulate_button:
